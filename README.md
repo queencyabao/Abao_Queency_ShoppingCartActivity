@@ -1,9 +1,9 @@
-Shopping Cart System
+# Shopping Cart System
 
-Description
+##Description
 - This project is a console-based shopping cart system developed using C#. It allows users to select products, enter quantities, add items to a cart, and generate a receipt. The program also handles stock management, input validation, and applies a discount when applicable.
 
-Features
+##Features
 - Displays available products with prices and remaining stock
 - Allows user to select products and input quantity
 - Validates user input (invalid numbers and stock limits)
@@ -12,11 +12,11 @@ Features
 - Applies a 10% discount for purchases above PHP 5000
 - Displays receipt and updated stock after checkout
 
-Files Included
+##Files Included
 - Program.cs (Main source code of the shopping cart system)
 - Flowchart.pdf (Visual representation of the program logic)
 
-AI Usage in this Project
+##AI Usage in this Project
 - I used AI as a learning and coding assistant while developing this C# shopping cart system.
 
   Parts where I used AI:
