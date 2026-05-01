@@ -1,45 +1,64 @@
-# Shopping Cart System
+# Shopping Cart System Quiz 2 and 3
 
-## Description
-- This project is a console-based shopping cart system developed using C#. It allows users to select products, enter quantities, add items to a cart, and generate a receipt. The program also handles stock management, input validation, and applies a discount when applicable.
+## Project Description
+- This project is an enhanced console-based Shopping Cart System developed using C#. It allows users to browse products, manage a shopping cart, and complete checkout with payment validation. Building upon the original structure, this version introduces advanced functionality including real-time inventory management, automated receipt generation, and persistent order history tracking.
 
 ## Features
-- Displays available products with prices and remaining stock
-- Allows user to select products and input quantity
-- Validates user input (invalid numbers and stock limits)
-- Adds items to cart and updates quantity if duplicated
-- Calculates subtotal and grand total
-- Applies a 10% discount for purchases above PHP 5000
-- Displays receipt and updated stock after checkout
+# Cart Management
+- View cart items
+- Remove item from cart
+- Update item quantity
+- Clear cart
 
+# Product Features
+- View all products
+- Search product by name
+- Filter products by category
+  
+# Checkout & Receipt System
+- Calculates total price
+- Applies discount (if applicable)
+- Validates payment input
+- Generates receipt number
+- Displays date and time
+  
+# Inventory & History
+- Updates stock after purchase
+- Low Stock Alert
+- Order History
+  
+# Input Validation
+- Numeric Validation: Uses TryParse logic to prevent crashes from invalid text entry.
+- Input Loops: Y/N prompts and menu choices loop until a valid input is received.
+  
 ## Files Included
-- Program.cs (Main source code of the shopping cart system)
-- Flowchart.pdf (Visual representation of the program logic)
+- Program.cs
+- README.md
+
+## Sample Output
+<img width="565" height="327" alt="image" src="https://github.com/user-attachments/assets/0fdb273c-fbe0-43ea-933e-a9c208718645" />
 
 ##AI Usage in this Project
-- I used AI as a learning and coding assistant while developing this C# shopping cart system.
+- During the development of this Shopping Cart System (Part 2), I used AI (Gemini and ChatGPT) as coding assistants to improve and debug my program.
 
-  Parts where I used AI:
-  - Designing the class structure (Product and CartItem)
-  - Implementing input validation and stock checking
-  - Developing cart logic and total computation
+# Prompts I asked AI: 
+  - Create a C# Shopping Cart System using classes
+  - How to properly validate user input using TryParse
+  - How to fix issues with stock not updating correctly
+  - How to implement receipt generation with date/time and receipt number
+  - How to validate Y/N inputs properly until correct response is given
+  - Implement order history using arrays
     
-  Why I used AI:
-  - To better understand C# concepts such as classes, arrays, and conditions
-  - To guide me in organizing the program properly
-  - To help identify and fix logical errors
+# Parts where I used AI:
+  - Debugging: Troubleshooting stock deduction and ensuring correct inventory updates.
+  - Input Validation: Improving TryParse logic to prevent crashes (invalid numbers, empty cart cases).
+  - Logic Structure: Organizing the cart system to avoid duplicate errors and enhancing the checkout flow.
+  - Feature Implementation: Guidance on implementing receipt generation (date/time/unique ID) and order history using arrays.
 
-  Prompts/Questions I asked:
-  - How to create a shopping cart system in C#
-  - How to handle arrays and objects
-  - How to validate user input
-  - How to compute totals and apply discounts
+ # Changes I made after using AI:
+  - Simplified Data Structures: I adapted the suggested logic to work with arrays to keep the project consistent with the foundation of the previous lessons.
+  - Custom Safety Checks: Added logic for "empty cart" scenarios and "invalid index" selections.
+  - Enhanced Validation: Integrated Y/N loops for critical menu actions to ensure valid user intent.
+  - Integration: Every block of code was reviewed, typed, and tested to ensure full understanding of the logic before final submission.
 
-  What I improved after using AI:
-  - Organized code into classes
-  - Improved input validation
-  - Prevented duplicate items in the cart
-  - Made the program more structured and user-friendly
-  - 
 Overall, AI was used only as a guide. I made sure to understand and apply the logic myself in completing the program.
-
